@@ -83,7 +83,7 @@ body {
 .header .links {
   position: relative;
 }
-.header .links:hover .icon span:nth-child(2) {
+.header .links:active .icon span:nth-child(2) {
   width: 100%;
 }
 .header .links .icon {
@@ -128,7 +128,7 @@ body {
   right: 5px;
   top: -20px;
 }
-.header .links:hover ul {
+.header .links:active ul {
   display: block;
 }
 .header .links ul li a {
@@ -138,7 +138,7 @@ body {
   color: #333;
   transition: var(--main-duration);
 }
-.header .links ul li a:hover {
+.header .links ul li a:active {
   padding-left: 25px;
 }
 .header .links ul li:not(:last-child) a {
